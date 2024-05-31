@@ -1,0 +1,30 @@
+body {
+    background-color: #2c2c2c;
+}
+
+footer {
+    position: absolute;     // Footer is inside the content
+    left: 0;
+    top: 100vh;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #212529;
+    ul li {
+      display: inline;
+      color: #9b9d9e;
+      margin-left: 15px;
+      transition: all .6s ease;
+    }
+    ul li a{
+      color: #9b9d9e;
+      text-decoration: none;
+      transition: all .6s ease;
+    }
+}
+
+ul li:hover, ul li a:hover{
+    color: #50C878;
+    transform: scale(1.05);
+}
