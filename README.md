@@ -2,4 +2,3 @@
 ㅤ
 ## TODO
 ### БД Firebase
-### Product Feed в XML
